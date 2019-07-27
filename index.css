@@ -60,7 +60,10 @@ dropdown:hover dropdown-content{
  display: block;
 }
   
- 
+body{
+ background-image: url("cartoon.jpg");
+      background-size: cover;
+}
  
 
   
