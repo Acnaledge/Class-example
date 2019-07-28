@@ -23,3 +23,8 @@
   background-color: #000;
   
 }
+
+body {
+  background-image: url("cartoon.jpg");
+  background-size: cover;
+}
