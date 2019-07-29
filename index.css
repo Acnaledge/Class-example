@@ -1,13 +1,13 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #fff;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #1c39bb;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -16,13 +16,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #000;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #fff;
   color: white;
 }
 
@@ -42,7 +42,7 @@ dropdown {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: #fff;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -50,7 +50,7 @@ dropdown {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #1c39bb;
 }
 
 .dropdown-content {
@@ -64,7 +64,7 @@ dropdown {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -72,7 +72,7 @@ dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
