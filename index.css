@@ -1,9 +1,7 @@
-
 topnav {
   background-color: #fff;
   overflow: hidden;
 }
-
 
 topnav a {
   float: left;
@@ -31,7 +29,7 @@ body {
   background-size: cover;
 }
 
-.dropdown {
+dropdown {
   float: left;
   overflow: hidden;
 }
