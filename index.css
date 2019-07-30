@@ -28,7 +28,7 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #fff;
+  background-color: #0070ff;
   color: #fff;
 }
 /* Navbar container */
