@@ -1,47 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-topnav {
-  overflow: hidden;
-  background-color: #fff;
-}
-
-topnav a {
-  float: left;
-  color: #000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-topnav a:hover {
-  background-color: #1c39bb;
-  
-}
-
-topnav a.active {
-  background-color: #1c39bb
-  
-}
-</style>
-  </head>
-    <body background="cartoon.jpg">
-     
-      <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="evolution">Evolution</a>
-      <a href="evolution">Generations</a>
-      <a href="favorites">Favorites</a>
-      <a href="how to">How To</a>
-      <a href="about">About</a>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
-    
-  </body>
+  </div> 
+</div>
+</body>
 </html>
