@@ -12,7 +12,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: center;
+  float: top;
   color: #1c39bb;
   text-align: center;
   padding: 14px 16px;
@@ -22,19 +22,19 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #fff;
-  color: #fff;
+  background-color: #1c39bb;
+  color: #1c39bb;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #0070ff;
-  color: #0070ff;
+  background-color: #1c39bb;
+  color: #1c39bb;
 }
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #0070ff;
   font-family: Arial;
 }
 
@@ -42,7 +42,7 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #fff;
+  color: #0070ff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
