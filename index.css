@@ -6,7 +6,7 @@ body {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #fff;
   overflow: hidden;
 }
 
@@ -93,7 +93,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 /* Show the dropdown menu on hover */
