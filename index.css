@@ -6,14 +6,14 @@ body {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #fff;
+  background-color: ##1c39bb;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #1c39bb;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,20 +22,20 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #1c39bb;
+  background-color: #fff;
   color: #1c39bb;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #fff;
-  color: #1c39bb;
+  background-color: #1c39bb;
+  color: #fff;
 }
 
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #0070ff;
   font-family: Arial;
 }
 
@@ -43,7 +43,7 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #0070ff;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -60,7 +60,7 @@ body {
   font-size: 16px; 
   border: none;
   outline: none;
-  color: #0070ff;
+  color: #fff;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -76,7 +76,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #0070ff;
+  background-color: #fff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -94,7 +94,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #0070ff;
+  background-color: #fff;
 }
 
 /* Show the dropdown menu on hover */
